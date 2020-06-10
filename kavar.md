@@ -1,5 +1,5 @@
 ---
 title: kavar/
-layout: page
+layout: home
 permalink: kavar/
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kavar Log 1"
+title:  "Introduction To Kavar"
 date:   2020-6-10 01:11:00 +0100
 categories:
 ---

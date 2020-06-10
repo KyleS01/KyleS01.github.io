@@ -2,5 +2,13 @@
 layout: post
 title:  "Introduction To Kavar"
 date:   2020-6-10 01:11:00 +0100
-categories:
+categories: Introduction
 ---
+
+Welcome to my first post about Kavar. This post is just a note about how dev-logs are going to be handled for Kavar. First off as I have already made progress with Kavar, some dev-logs will be going over what has been changed or what has been added to already existing features. I will note with features have already been built prior to the creation of these dev-logs and how they have been expended upon. 
+
+Secondly, the frequency of these dev-logs may vary depending on how much content I add in a week. If enough content is added for me to talk about, dev-logs will be uploaded on a Sunday. If only small features or bug fixes are what I worked on during that week that a small post will be uploaded giving a brief overview of what I done. These won't go into detail as they won't be very interesting.
+
+Thirdly, as Kavar hasn't been worked on for long and doesn't have a lot of content, the game won't be available to the public until enough content is added to actually make it enjoyable. When the game does go public I have a link to the game in the Kavar section of the website.
+
+With that in mind I hope you enjoy future dev-logs of Kavar.

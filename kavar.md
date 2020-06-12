@@ -17,4 +17,4 @@ The first dev-log of Kavar can be found here: [Kavar Dev Log 0](https://kyles01.
 
 
 Image Test 2
-<img src = "KyleS01.github.io/images/kavar/PlayerInteractionMenu.PNG"/>
+<img src = "images/kavar/PlayerInteractionMenu.PNG"/>

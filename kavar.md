@@ -16,7 +16,7 @@ Most of the dev-logs here will be about Kavar and you can espect a lot of me bab
 The first dev-log of Kavar can be found here: [Kavar Dev Log 0](https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-0.html).
 
 
-Image Test -5
-![Screenshot]("images/PlayerInteractionMenu.PNG/")
+Image Test -10
+("images/PlayerInteractionMenu.PNG")
 
 

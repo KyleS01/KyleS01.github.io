@@ -9,7 +9,11 @@ Kavar is my current passion project that I've been working on for a little while
 2. Procedural Generation with Perlin Noise
 3. And Randomized item and enemy stats with bonus effects.
 
+&nbsp;
+
 I haven't thought a great deal about what I want to be included within the game but I have decieded that I want it to be a survival game. These means the player would have to deal with hunger, health, and other elements that may try to kill you -the player-. 
+
+&nbsp;
 
 Most of the dev-logs here will be about Kavar and you can espect a lot of me babbling about whats being added and improved on within the game.
 

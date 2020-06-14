@@ -15,14 +15,17 @@ If the head or torso reaches 0 health, then the target will die. Targeting the a
 That’s the health system in a nutshell. As you can guess, having a simple health bar won’t do as it won’t tell the player how much health a certain part of the body has left. Because of this, I had to create a UI that allowed the player to see all body parts at once. This is what I came up with.
 
 &nbsp;
-<img align="right" width="210" height="315" src="/images/interactionmenuV2.PNG">
+<img align="left" width="210" height="315" src="/images/interactionmenuV2.PNG">
 &nbsp;
 
 Let’s go over what is being displayed here.
-(1)	Is the header and allows the player to go to different sections of the UI. For now, only the icon on the right side has been implemented and allows the player to display or collapse the health display for the player.
-(2)	Displays all the health for the different body parts. 
-(3)	Allows potions to be used on each of the body parts. There will be a variety of potions but for now only the health potion has been implemented. As each body part has its own heath bar, the implemented potion will only heal the targeted body part.
-(4)	This displays all the health for the target enemy. As there will be different types of enemies and since it takes up a lot of space, I’ve decided to go with traditional health bars for each of the body parts. This section is a work in progress and won’t be the final design.
+1. Is the header and allows the player to go to different sections of the UI. For now, only the icon on the right side has been implemented and allows the player to display or collapse the health display for the player.
+&nbsp;
+2. Displays all the health for the different body parts. 
+&nbsp;
+3. Allows potions to be used on each of the body parts. There will be a variety of potions but for now only the health potion has been implemented. As each body part has its own heath bar, the implemented potion will only heal the targeted body part.
+&nbsp;
+4. This displays all the health for the target enemy. As there will be different types of enemies and since it takes up a lot of space, I’ve decided to go with traditional health bars for each of the body parts. This section is a work in progress and won’t be the final design.
 &nbsp;
 
 I’m happy on how this turned out considering I’m usually terrible with UI. This is mainly what I’ve done this week, but I have started progress on the combat system. I’ll talk about that next week. 

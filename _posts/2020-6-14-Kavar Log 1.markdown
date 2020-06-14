@@ -15,12 +15,7 @@ If the head or torso reaches 0 health, then the target will die. Targeting the a
 That’s the health system in a nutshell. As you can guess, having a simple health bar won’t do as it won’t tell the player how much health a certain part of the body has left. Because of this, I had to create a UI that allowed the player to see all body parts at once. This is what I came up with.
 
 &nbsp;
-![](/images/interactionmenuV2.PNG)
-&nbsp;
-
-&nbsp;
-Test 2
-<img align="centre" width="210" height="315" src="/images/interactionmenuV2.PNG">
+<img align="right" width="210" height="315" src="/images/interactionmenuV2.PNG">
 &nbsp;
 
 Let’s go over what is being displayed here.

@@ -9,7 +9,7 @@ Unlike most games where the player only has a singular health bar, Kavar works b
 1. Arms;
 2. Legs;
 3. Torso;
-4. And Head
+4. And Head.
 <br>
 <div align="left">
 If the head or torso reaches 0 health, then the target will die. Targeting the arms or legs will have different effects such as requiring more turns to move or use an item. For example, if the enemy has one depleted leg, it would require 2 turns to move as opposed to 1 turn. 

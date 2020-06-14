@@ -29,4 +29,5 @@ Let’s go over what is being displayed here.
 &nbsp;
 
 I’m happy on how this turned out considering I’m usually terrible with UI. This is mainly what I’ve done this week, but I have started progress on the combat system. I’ll talk about that next week. 
+&nbsp;
 If you found this interesting and wish to see what else I plan to do with Kavar consider bookmarking this and sharing it with others. No worries though if you don’t. See you next week.

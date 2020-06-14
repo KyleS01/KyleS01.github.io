@@ -19,6 +19,8 @@ Thirdly, as Kavar hasn't been worked on for long and doesn't have a lot of conte
 
 With that in mind I hope you enjoy future dev-logs of Kavar.
 
+temp
+
 <div style="float:left">
 <a href="https://kyles01.github.io/kavar/2020/06/14/Kavar-Log-1.html">Previous Log</a>
 </div>

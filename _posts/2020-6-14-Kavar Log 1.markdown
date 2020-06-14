@@ -10,7 +10,7 @@ Unlike most games where the player only has a singular health bar, Kavar works b
 2. Legs;
 3. Torso;
 4. And Head
-&nbsp;&nbsp;
+<br>
 If the head or torso reaches 0 health, then the target will die. Targeting the arms or legs will have different effects such as requiring more turns to move or use an item. For example, if the enemy has one depleted leg, it would require 2 turns to move as opposed to 1 turn. 
 That’s the health system in a nutshell. As you can guess, having a simple health bar won’t do as it won’t tell the player how much health a certain part of the body has left. Because of this, I had to create a UI that allowed the player to see all body parts at once. This is what I came up with.
 

@@ -19,3 +19,4 @@ I haven't thought a great deal about what I want to be included within the game 
 Most of the dev-logs here will be about Kavar and you can espect a lot of me babbling about whats being added and improved on within the game.
 
 The first dev-log of Kavar can be found here: [Kavar Dev Log 0](https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-0.html).
+The current dev-log of Kavar can be found here: [Kavar Dev Log 1](https://kyles01.github.io/kavar/2020/06/14/Kavar-Log-1.html).

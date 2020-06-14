@@ -24,6 +24,6 @@ With that in mind I hope you enjoy future dev-logs of Kavar.
 </div>
 
 <div style="text-align:left">
-[Next Link](https://kyles01.github.io/kavar/2020/06/14/Kavar-Log-1.html)
+[Next Link]("https://kyles01.github.io/kavar/2020/06/14/Kavar-Log-1.html")
 </div>
 

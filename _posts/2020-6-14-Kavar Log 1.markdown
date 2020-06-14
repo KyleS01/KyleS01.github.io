@@ -16,7 +16,7 @@ That’s the health system in a nutshell. As you can guess, having a simple heal
 
 &nbsp;
 test -2
-<div style="font-size:2px"?
+<div style="font-size:2px">
   <img width="210" height="315" src="/images/interactionmenuV2.PNG">
 </div>
 

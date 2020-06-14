@@ -16,7 +16,7 @@ That’s the health system in a nutshell. As you can guess, having a simple heal
 
 &nbsp;
 TEMP
-![](images/Player_Interaction_Menu_V2.PNG)
+![](images/Player_Interaction_Menu_V2.PNG/)
 &nbsp;
 
 Let’s go over what is being displayed here.

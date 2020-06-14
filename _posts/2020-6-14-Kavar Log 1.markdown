@@ -1,0 +1,29 @@
+---
+layout: post
+title:  "Kavar Log 1: Health UI"
+date:   2020-6-14 01:11:00 +0100
+categories: Kavar
+---
+Welcome to my first dev-log on Kavar. This week’s progress focused on the health UI for the player and enemy. Before I go into that though, I’m going to talk about the health system and how it works in-game.
+Unlike most games where the player only has a singular health bar, Kavar works by having different health bars for each of different parts of the body. These include
+1.	Arms;
+2.	Legs;
+3.	Torso;
+4.	And Head.
+&nbsp;
+If the head or torso reaches 0 health, then the target will die. Targeting the arms or legs will have different effects such as requiring more turns to move or use an item. For example, if the enemy has one depleted leg, it would require 2 turns to move as opposed to 1 turn. 
+That’s the health system in a nutshell. As you can guess, having a simple health bar won’t do as it won’t tell the player how much health a certain part of the body has left. Because of this, I had to create a UI that allowed the player to see all body parts at once. This is what I came up with.
+
+&nbsp;
+![](images/Player Interaction Menu V2.PNG)
+&nbsp;
+
+Let’s go over what is being displayed here.
+(1)	Is the header and allows the player to go to different sections of the UI. For now, only the icon on the right side has been implemented and allows the player to display or collapse the health display for the player.
+(2)	Displays all the health for the different body parts. 
+(3)	Allows potions to be used on each of the body parts. There will be a variety of potions but for now only the health potion has been implemented. As each body part has its own heath bar, the implemented potion will only heal the targeted body part.
+(4)	This displays all the health for the target enemy. As there will be different types of enemies and since it takes up a lot of space, I’ve decided to go with traditional health bars for each of the body parts. This section is a work in progress and won’t be the final design.
+&nbsp;
+
+I’m happy on how this turned out considering I’m usually terrible with UI. This is mainly what I’ve done this week, but I have started progress on the combat system. I’ll talk about that next week. 
+If you found this interesting and wish to see what else I plan to do with Kavar consider bookmarking this and sharing it with others. No worries though if you don’t. See you next week.

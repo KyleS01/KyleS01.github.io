@@ -22,13 +22,13 @@ That’s the health system in a nutshell. As you can guess, having a simple heal
 
 Let’s go over what is being displayed here.
 1. Is the header and allows the player to go to different sections of the UI. For now, only the icon on the right side has been implemented and allows the player to display or collapse the health display for the player.
-&nbsp;
+<br>
 2. Displays all the health for the different body parts. 
 &nbsp;
 3. Allows potions to be used on each of the body parts. There will be a variety of potions but for now only the health potion has been implemented. As each body part has its own heath bar, the implemented potion will only heal the targeted body part.
-&nbsp;
+<br>
 4. This displays all the health for the target enemy. As there will be different types of enemies and since it takes up a lot of space, I’ve decided to go with traditional health bars for each of the body parts. This section is a work in progress and won’t be the final design.
-&nbsp;
+<br>
 
 I’m happy on how this turned out considering I’m usually terrible with UI. This is mainly what I’ve done this week, but I have started progress on the combat system. I’ll talk about that next week. 
 &nbsp;

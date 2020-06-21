@@ -16,6 +16,10 @@ Right now, the player has six body parts:
 3.	Torso
 4.	And Head
 The head has the lowest amount of health while the torso has the most. In the future depleting the health of the arms and legs will not kill the target but will make them impossible to use unless healed. 
+<img align="right" width="210" height="315" src="/images/BodyPartHealth.PNG">
+
+<br>
+
 To make combat harder and fairer, every target will have a concentration meter that depending on its amount, will make it easier for the target to defend themselves. This isn’t full implemented right now, but the idea is that when you encounter an enemy you won’t be able to immediately aim for the head as that would make it very easy to kill everything you come across. Instead you would need to deplete the concentration until a certain amount until you can target the head. Right now, the only way to deplete concentration is to attack an enemy directly. In the future, there will be special ways to deplete concentration depending on your skills and possibly environment. In the future, it will be possible to drink a potion that will restore your concentration.
 Right now, the player cannot attack the enemy as I am in the middle of implementing it. Despite that, I can talk about the different ways you can attack an enemy currently. There are two weapons available right now: the dagger and the bow. The dagger can be used as a melee weapon but can also be used as a ranged weapon by throwing it at a target. The bow has two arrow types: Normal Tipped and Fire Tipped. Fire Tipped arrows have a bonus effect that sets the target on fire when hit.
 While there is only the Flame effect, that ignites a target when hit, there will be different effects that can be used for different situations.  

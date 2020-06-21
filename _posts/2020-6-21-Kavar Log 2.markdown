@@ -14,10 +14,10 @@ As you saw last week, each actor does not simply have a health bar which display
 </div>
 <div>
 Right now, the player has six body parts:
-1.	Left and Right Leg
-2.	Left and Right Arms
-3.	Torso
-4.	And Head
+1.	Left and Right Leg <br>
+2.	Left and Right Arms <br>
+3.	Torso <br>
+4.	And Head <br>
 </div>
 <br>
 <div align="left">

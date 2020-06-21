@@ -6,7 +6,10 @@ categories: Kavar
 ---
 
 Welcome to my third progress log of Kavar. This week was focusing on the combat system and laying down the basics. I believe it is essential for any good roguelike to have an interesting and easy to understand combat system that allows players to fight how they want to fight. So, let’s see what new in this update.
-As you saw last week, each actor does not simply have a health bar which displays their health. Instead, each body part has their own health bar that when depleted will either kill or disable that body part. So far, all body parts that reach zero health will die. This is done by each actor having a list of body parts that are named after their respective part. When a part is made, values are passed through to the constructor to make the part. These values include:
+<br>
+As you saw last week, each actor does not simply have a health bar which displays their health. 
+<br>
+Instead, each body part has their own health bar that when depleted will either kill or disable that body part. So far, all body parts that reach zero health will die. This is done by each actor having a list of body parts that are named after their respective part. When a part is made, values are passed through to the constructor to make the part. These values include:
 <div>
 1.	Box Collider of the part. This makes it easier to find the part of the body when the player is attacking; <br>
 2.	The name of the part. <br>
@@ -28,7 +31,10 @@ The head has the lowest amount of health while the torso has the most. In the fu
 
 <br>
 
-To make combat harder and fairer, every target will have a concentration meter that depending on its amount, will make it easier for the target to defend themselves. This isn’t full implemented right now, but the idea is that when you encounter an enemy you won’t be able to immediately aim for the head as that would make it very easy to kill everything you come across. Instead you would need to deplete the concentration until a certain amount until you can target the head. Right now, the only way to deplete concentration is to attack an enemy directly. In the future, there will be special ways to deplete concentration depending on your skills and possibly environment. In the future, it will be possible to drink a potion that will restore your concentration.
+To make combat harder and fairer, every target will have a concentration meter that depending on its amount, will make it easier for the target to defend themselves. This isn’t full implemented right now, but the idea is that when you encounter an enemy you won’t be able to immediately aim for the head as that would make it very easy to kill everything you come across. Instead you would need to deplete the concentration until a certain amount until you can target the head. Right now, the only way to deplete concentration is to attack an enemy directly. 
+<br>
+In the future, there will be special ways to deplete concentration depending on your skills and possibly environment. In the future, it will be possible to drink a potion that will restore your concentration.
+<br>
 Right now, the player cannot attack the enemy as I am in the middle of implementing it. Despite that, I can talk about the different ways you can attack an enemy currently. There are two weapons available right now: the dagger and the bow. The dagger can be used as a melee weapon but can also be used as a ranged weapon by throwing it at a target. The bow has two arrow types: Normal Tipped and Fire Tipped. Fire Tipped arrows have a bonus effect that sets the target on fire when hit.
 While there is only the Flame effect, that ignites a target when hit, there will be different effects that can be used for different situations.  
 That’s the current progress of Kavar. Next week will continue with progress of combat and making some small alterations that will make it easier for me to add more content such as weapons and items. Until then, stay safe. 

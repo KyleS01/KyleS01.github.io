@@ -10,7 +10,9 @@ As you saw last week, each actor does not simply have a health bar which display
 1.	Box Collider of the part. This makes it easier to find the part of the body when the player is attacking;
 2.	The name of the part.
 3.	And two int values of the current amount of health and the max health of the part.
+<br>
 Right now, the player has six body parts:
+
 1.	Left and Right Leg
 2.	Left and Right Arms
 3.	Torso

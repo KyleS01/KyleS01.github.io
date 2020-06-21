@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Kavar Log 3: Combat 01"
+title:  "Kavar Log 2: Combat 01"
 date:   2020-6-21 18:25:00 +0100
 categories: Kavar
 ---

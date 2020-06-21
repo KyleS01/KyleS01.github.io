@@ -16,7 +16,9 @@ Right now, the player has six body parts:
 3.	Torso
 4.	And Head
 <br>
+<div align="left">
 The head has the lowest amount of health while the torso has the most. In the future depleting the health of the arms and legs will not kill the target but will make them impossible to use unless healed. 
+</div>
 <img align="right" width="318" height="199" src="/images/BodyPartHealth.PNG">
 
 <br>

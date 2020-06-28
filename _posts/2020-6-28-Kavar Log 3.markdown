@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Kavar Log 3: Small Changes"
+date:   2020-6-28 17:45:00 +0100
+categories: Kavar
+---
+
+Not a lot of progress this week as I was busy with other stuff. I had done some bug fixes involving the effects and how they affect the enemies but beside that nothing else.
+More on the combat will come next week. Until then stay safe.

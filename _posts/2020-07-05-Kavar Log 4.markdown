@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Kavar Log 4: Combat 02"
+date:   2020-7-05 16:45:00 +0100
+categories: Kavar
+---
+A new month comes more progress. Although it likes like I haven’t accomplished a lot this week, it definitely feels like I have. Combat has finally been completed. 
+The reason why this took longer than expected was because of some issues the code would cause when executed. 
+For example, there are two ways to attack enemies in the game: melee and ranged. 
+The bow was easy to implement as that only has a ranged attack, but the dagger was a bit more difficult. 
+Since daggers can be used as a melee and a ranged weapon, I had to program it in to detect what state it was in and how it would be used. 
+To do this, I programmed in a shortcut to change from melee and ranged mode. That was the easy bit. The hard bit was removing the thrown item from the player’s inventory. 
+While this sounds easy: get the weapon’s name; make a GameObject; Add a SpriteRenderer and add the weapons image; and add a tag to allow actors to pick it up, for some reason 
+Unity (or C#?) doesn’t like it when I drop the item after it has been used.  
+This was an easy fix though as all I did was add a coroutine that waited 1 frame so that Unity could update the script. For anyone interested this is the code:
+
+<br /><br />c sharp:
+{% highlight c# %}
+class PlayerLogic {
+    IEnumerator WaitForFrames(int length)
+    {
+      yield return length;
+    }
+}
+
+
+The code is really simple -simpler than I would off imaged- and can be easily added to any script. The only problem with this though is that after each time a weapon is thrown, the player automatically goes to their hands for weapons.
+Like I said at the beginning it doesn’t look like much, but this week was good progress. For next week I will start programming enemy movement and if I get far enough picking up nearby objects. Until then stay safe and happy game making.

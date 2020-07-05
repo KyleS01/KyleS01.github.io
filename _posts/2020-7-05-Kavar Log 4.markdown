@@ -22,7 +22,7 @@ class PlayerLogic {
       yield return length;
     }
 }
-
+{% endhighlight %}
 
 The code is really simple -simpler than I would off imaged- and can be easily added to any script. The only problem with this though is that after each time a weapon is thrown, the player automatically goes to their hands for weapons.
 Like I said at the beginning it doesn’t look like much, but this week was good progress. For next week I will start programming enemy movement and if I get far enough picking up nearby objects. Until then stay safe and happy game making.

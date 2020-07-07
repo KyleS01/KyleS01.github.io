@@ -15,3 +15,7 @@ style: dark
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+
+gems:
+  - jekyll-sitemap
+  

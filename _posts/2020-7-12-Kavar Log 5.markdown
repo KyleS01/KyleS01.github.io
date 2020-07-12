@@ -13,5 +13,5 @@ If you’re interested in the logic behind it watch this video by <a href="https
 
 
 
-The first video goes over the process and logic of A*. The rest involve implementing A* in Unity using a custom-made grid system. Right now, I’m in the process of converting the grid system to Unity’s inbuild grid.
+The first video goes over the process and logic of A Star. The rest involve implementing A Star in Unity using a custom-made grid system. Right now, I’m in the process of converting the grid system to Unity’s inbuild grid.
 Wells that everything for this week. Hope you enjoyed and until next time stay safe.

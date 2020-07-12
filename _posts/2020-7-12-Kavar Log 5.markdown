@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Kavar Log 5: Pathfinding 01"
+date:   2020-6-28 18:40:00 +0100
+categories: Kavar
+---
+
+This week’s dev log is going to be quite short as its only about one topic; the pathfinding for the enemies. It’s been a difficult to implement this in and even though I spent the entire week trying to do so, it is still in the process of working. Because of this, I can’t actually show you anything. I can however talk about the pathfinding itself.
+For those who don’t know, pathfinding is a method used by programmers to give logic to enemies so that they can move around a level without colliding into walls or other objects. Its very handy for games that don’t have a definite level layout such as Kavar as the entire map is going to be procedural generated.
+There are many algorithms used for pathfinding but the one I’m using is A*. This is the one of the most popular and most used algorithms as its simple to use and understand. 
+If you’re interested in the logic behind it watch this video by <a href"https://www.youtube.com/watch?v=-L-WgKMFuhE">Sebastian Lague.</a>
+<br>
+
+The first video goes over the process and logic of A*. The rest involve implementing A* in Unity using a custom-made grid system. Right now, I’m in the process of converting the grid system to Unity’s inbuild grid.
+Wells that everything for this week. Hope you enjoyed and until next time stay safe.

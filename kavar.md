@@ -9,7 +9,7 @@ These features and more what could you want? Oh, the game… right.
 
 &nbsp;
 
-As it stands, Kavar is new. Not baby new, but new. Which is why I invite you, random stranger over the internet, to come with me on a grand adventure on which I develop Kavar one feature at a time. There will be times be a week will bring chest loads of features ready to release, and other weeks where I’ll fix a simple bug haunting me only to find out I’ve put a while loop in the update function again (damn those while loops). No matter the weather, I hope you enjoy the weekly dev-logs I intend to do and with any luck you will somehow enjoy what I have to offer.
+As it stands, Kavar is new. Pretty much baby new. Which is why I invite you, random stranger over the internet, to come with me on a grand adventure on which I develop Kavar one feature at a time. There will be times be a week will bring chest loads of features ready to release, and other weeks where I’ll fix a simple bug haunting me only to find out I’ve put a while loop in the update function again (damn those while loops). No matter the weather, I hope you enjoy the weekly dev-logs I intend to do and with any luck you will somehow enjoy what I have to offer.
 
 &nbsp;
 

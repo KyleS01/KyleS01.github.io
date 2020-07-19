@@ -19,4 +19,4 @@ With all that said, thank you and enjoy the ride!
 
 The first dev-log of Kavar can be found here: [Kavar Dev Log 0](https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-0.html).
 
-The current dev-log of Kavar can be found here: [Kavar Dev Log 5](https://kyles01.github.io/kavar/2020-7-19-Kavar-Log-6.html).
+The current dev-log of Kavar can be found here: [Kavar Dev Log 6](https://kyles01.github.io/kavar/2020-7-19-Kavar-Log-6.html).

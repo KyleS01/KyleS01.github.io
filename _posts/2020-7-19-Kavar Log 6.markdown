@@ -20,6 +20,7 @@ its completed and implemented. With all that said, here are two gifs to showcase
 <img align="right" width="360" height="190" src="/images/Pathfinding(Debug Ver).gif">
 
 The bottom gif shows the process using the debugging tools. The above image is what you will see in-game.
+&nbsp;
 Pathfinding is done using the A Star algorithm which detects what tiles in the tilemap are moveable and which aren’t. 
 This was easy enough as all I had to do what get the tilemap that the unmovable tiles are located on and boom no more walking through walls like a 
 ghost (that would be a cool enemy idea; ghosts can move through walls). Within the enemy script is a piece of code inherited from the Pathfinding class 

@@ -44,6 +44,6 @@ That’s the current progress of Kavar. Next week will continue with progress of
 </div>
 
 <div style="float:left">
-<a href="https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-2.html">Previous Log</a>
+<a href="https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-1.html">Previous Log</a>
 </div>
 

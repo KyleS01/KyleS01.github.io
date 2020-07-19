@@ -4,19 +4,18 @@ layout: page
 permalink: kavar/
 ---
 
-Kavar is my current project that I've been working on for a little while now. It is going to have features found in roguelikes such as:
-1. Permadeath (I am thinking about making this optional)
-2. Procedural Generation with Perlin Noise
-3. Randomized item and enemy stats with bonus effects.
-4. And turn based movement.
+Hey and welcome to the official page of Kavar. Kavar is going to be a roguelike that features dynamic enemies, allies, and worlds that interact with each other. Ever wanted enemies that hate specific people and monsters and will target them instead of you. Ever wanted to gain the trust of your ally only to find out he’s been stealing gold from you this entire time. Ever wanted to see giant rock monsters get destroyed by tiny acidic spiders. Well have I got the game for you. 
+These features and more what could you want? Oh, the game… right.
 
 &nbsp;
 
-I haven't thought a great deal about what I want to be included within the game but I have decieded that I want it to be a survival game. These means the player would have to deal with hunger, health, and other elements that may try to kill you -the player-. It will also be set in a fantasy-like world meaning it will have inhuman beings such as Rock monsters that will try to crush you.
+As it stands, Kavar is new. Not baby new, but new. Which is why I invite you, random stranger over the internet, to come with me on a grand adventure on which I develop Kavar one feature at a time. There will be times be a week will bring chest loads of features ready to release, and other weeks where I’ll fix a simple bug haunting me only to find out I’ve put a while loop in the update function again (damn those while loops). No matter the weather, I hope you enjoy the weekly dev-logs I intend to do and with any luck you will somehow enjoy what I have to offer.
 
 &nbsp;
 
-Most of the dev-logs here will be about Kavar and you can espect a lot of me babbling about whats being added and improved on within the game.
+With all that said, thank you and enjoy the ride!
+
+
 
 The first dev-log of Kavar can be found here: [Kavar Dev Log 0](https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-0.html).
 

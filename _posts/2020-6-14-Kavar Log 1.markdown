@@ -34,6 +34,10 @@ I’m happy on how this turned out considering I’m usually terrible with UI. T
 &nbsp;
 If you found this interesting and wish to see what else I plan to do with Kavar consider bookmarking this and sharing it with others. No worries though if you don’t. See you next week.
 
+<div style="float:right">
+<a href="https://kyles01.github.io/kavar/2020/06/14/Kavar-Log-2.html">Next Log</a>
+</div>
+
 <div style="float:left">
 <a href="https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-0.html">Previous Log</a>
 </div>

@@ -39,3 +39,11 @@ Right now, the player cannot attack the enemy as I am in the middle of implement
 While there is only the Flame effect, that ignites a target when hit, there will be different effects that can be used for different situations.  
 That’s the current progress of Kavar. Next week will continue with progress of combat and making some small alterations that will make it easier for me to add more content such as weapons and items. Until then, stay safe. 
 
+<div style="float:right">
+<a href="https://kyles01.github.io/kavar/2020/06/14/Kavar-Log-3.html">Next Log</a>
+</div>
+
+<div style="float:left">
+<a href="https://kyles01.github.io/introduction/2020/06/10/Kavar-Log-2.html">Previous Log</a>
+</div>
+

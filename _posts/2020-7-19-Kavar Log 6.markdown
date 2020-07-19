@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "Kavar Log 6: Pathfinding 02"
+date:   2020-7-19 16:40:00 +0100
+categories: Kavar
+---
+
+A very progressive week! I’ve finally got the A Star pathfinding implemented and now the enemy can move to the enemy. 
+Yay! Last week I linked a video which explained the A Star pathfinding algorithm and said I was going to use that video to add pathfinding to my game. 
+While that was an excellent video and defiantly helped me understand it, I ended up buying an asset on the Unity Store that handles pathfinding. 
+The good thing about this asset is that it works directly hand in hand with Unity’s tilemap system. <br>
+Not going to lie while this definitely helped with progress with Kavar’s enemy AI, I feel bad taking the ‘lazy’ way out and relying on using another 
+programmers work, even though programmers in a day to day setting work like this. This probably stems from the fact that before this, I had always found a 
+way to implement something I found and still find difficult (like the UI) and didn’t use other assets. Don’t know if other programmers feel like this but I 
+imagine it’s a temporary feeling that will soon pass and eventually I will be glad that I didn’t spend 3 weeks on a feature that you can’t talk about unless 
+its completed and implemented. With all that said, here are two gifs to showcase what has been completed this week. (Yay! My first gifs)
+
+<img align="right" width="360" height="190" src="/images/Pathfinding.gif">
+&nbsp;
+<img align="right" width="360" height="190" src="/images/Pathfinding(Debug Ver).gif">
+
+Pathfinding is done using the A Star algorithm which detects what tiles in the tilemap are moveable and which aren’t. 
+This was easy enough as all I had to do what get the tilemap that the unmovable tiles are located on and boom no more walking through walls like a 
+ghost (that would be a cool enemy idea; ghosts can move through walls). Within the enemy script is a piece of code inherited from the Pathfinding class 
+that returns a list of Vector 3s that the enemy can use to move towards the target. Right now, the player is the only target and there is no way for the 
+enemy to detect the player or other enemies via normal ways. Once all of that is done, the enemy checks if the player isn’t on that position, to stop the 
+enemy and player collide in the same position resulting in a dead lock. If that returns false, then the enemy moves closer to the target. 
+This can be seen above.
+
+&nbsp;
+Now that the enemy can move about towards the target my next goal is implementing a way for enemies to move about without a target. Once that is done, detecting if the player is in its field of view will have to be implemented.  
+I hope you enjoyed this week’s content update. If you did consider following my progress as I will be posting every Sunday. Until next week, stay safe. 
+

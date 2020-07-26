@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Kavar Log 6: Pathfinding 02"
+date:   2020-7-19 18:00:00 +0100
+categories: Kavar
+---
+
+Welcome to dev log #7 for Kavar. This week’s focus was expending upon the AI for the enemies and how they pick targets. Before the update, the enemy would automatically go to the player regardless of where they were and follow them. Now, the enemy has to actually view the player to chase after them. This involves using a line cast which is a built-in function Unity has which allows two points to be set, the start position and the end position, and see if there are any colliders between the points. If there isn’t then the enemy can see the player and will chase after them. If there is a collider than the enemy will not chase the player and will move randomly. The random movement is very simple right now and will stay like that until motivations and goals are implemented which will give an actor, such as an enemy, a goal to reach. All that can be seen with this gif.
+
+
+
+For the first few frames you can see the enemy moving around randomly as it has not yet detected the player. You can tell it has a clear view of the player once it directly goes for the player. Later on, there will be ways to see if an enemy has detected you such as a UI popup telling the player a certain enemy has seen you. 
+<img align="right" width="360" height="190" src="/images/Detection.gif">
+My next step is to allow the enemy to lose the player if they have gone out of their field of view. Once this happens, the enemy will go to the last position they had seen the player and if they can’t find him, they will move randomly. 
+As that is all this week, I will leave you with a question. Right now, the enemy will move randomly by picking a number 1-4 and depending on the number will move either up, down, left or right. Later on, enemies will move with a goal in mind. What do you think would be some funny or cool goals that the enemies would try to achieve? One of my ideas is having an enemy loving gold and trying to go around and steal as much gold he could carry. Well until next week, stay safe and have fun. 

@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Kavar Log 8: Revamped Movement System"
+date:   2020-7-19 17:215:00 +0100
+categories: Kavar
+---
+Welcome to Log 8 of Kavar. This week was spent revamping the movement system so that it would be easier to accomplish what I have in mind. Last week’s goal was to allow the enemy to lose the player if they left their POV. This was not accomplished however since the way I had designed my previous movement system made it very difficult and unclean to implement it in. Because of that, I’ve decided that instead of being a turn-based game where the player would move before all of the enemies, the player and enemies would move in real time. As I want Kavar to be a strategy game of sorts where the player will look at their enemies and determine the best approach to deal with them, I am going to implement a pause option that will stop all movement of the player and enemies so that it will become easier to plan out. 
+Since the movement has now been updated to run in real time, my next step is to accomplish what I set out to do last week. Hopefully this time will go more smoothly. Until then stay safe.

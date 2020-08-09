@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Kavar Log 9: Revamped Movement System 2"
+date:   2020-8-09 16:30:00 +0100
+categories: Kavar
+---
+
+
+
+
+
+
+
+<br /><br />c sharp:
+{% highlight c# %}
+class EnemyLogic 
+{   
+    void Update()
+    {
+        //Move Enemy Every half second.
+        if (Time.time > timeToMove)
+        {
+            if (path.IsGenerated())
+            {
+                if (path.GetNextPoint(ref nextPoint))
+                {
+                    transform.position = nextPoint;
+                }
+
+
+            }
+
+
+            timeToMove += .5f;
+        }
+    
+        //Get Target
+        if (target == null)
+        {
+            List<Collider2D> hits = new List<Collider2D>();
+            hits.AddRange(Physics2D.OverlapCircleAll(transform.position, 10));
+
+            //Gets rid of all of the enemies colliders to hits.
+            foreach (BodyPart part in bodyParts) if (hits.Contains(part.area)) hits.Remove(part.area);
+
+            //Since the player is the only target right now, just find the player.
+            if (SeeTarget(player))
+            {
+                target = player.gameObject;
+                targetLastSeenPosition = target.transform.position;
+
+                path.CreatePath(transform.position, target.transform.position, false);
+            }
+
+        }
+        else
+        {
+            if (SeeTarget(target.transform))
+            {
+                path.Reset();
+                path.CreatePath(transform.position, target.transform.position, false);
+
+                targetLastSeenPosition = target.transform.position;
+            }
+
+            if (!SeeTarget(target.transform) && transform.position == targetLastSeenPosition)
+            {
+                MoveWithoutGoal();
+            }
+
+
+        }
+
+    
+    }
+
+
+
+}
+
+
+
+{% endhighlight %}

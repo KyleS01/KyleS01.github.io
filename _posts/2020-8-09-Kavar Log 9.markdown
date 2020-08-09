@@ -5,8 +5,9 @@ date:   2020-8-09 16:30:00 +0100
 categories: Kavar
 ---
 
-
-
+Hey and welcome to Log 9 of Kavar. I have finally finished my enemy movement script which allows an enemy to target the player and chase after them until they lose them. As of right now, the enemy will only target the player as he’s the only other targetable game object within the scene. Later on, different enemies will target different opponents. 
+How the code works is that whenever half a second goes by in game, the enemy will move randomly or move towards the player. If there is no target than every frame the enemy will try to find a target. In hindsight this probably isn’t a very efficient way of doing it and will probably recode it so that it will only try to find a target every time the enemy can move to reduce the amount of times the code is being ran. Anyway, once the enemy finds the player, a path will be created to the player and the enemy will go towards him. If at any point the enemy loses sight of the player, the enemy will go to the last seen location of the player to try and find him. If this doesn’t work, then the enemy will give up and will wonder about. If you’re interested it can be found below. Please keep in mind that the pathfinding is not mine so if you want to use the code you will have to buy it on the Unity Asset Store found here.
+My target for next week is to code in a function that allows the enemy to attack the player and kill him. If I can, I will the enemy choose between the dagger or the bow. Until then stay safe.
 
 
 

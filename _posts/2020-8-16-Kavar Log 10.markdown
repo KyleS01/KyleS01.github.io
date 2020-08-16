@@ -11,5 +11,8 @@ Right now, a debug message appears when the player dies but, in the future, once
 player to actually die. I have also added an attack speed rate for each weapon so that enemies can only attack once every .3 seconds (for the dagger at least).  This will extent to the player as well, but I’ve only implemented it for the enemy right now.
 
 Next week will focus on adding range attacks to the enemy and add a concentration potion to the player’s inventory. 
+
 I will also try to give enemies the option to drink health and concentration potions if they are low. I’ve also got to add a pause function so that it will 
-become easier for players to plan and execute an attack idea. More on that later though. Until next week stay safe.
+become easier for players to plan and execute an attack idea. More on that later though. 
+
+Until next week stay safe.

@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Kavar Log 11: Enemy Combat 02 and Other Features"
+date:   2020-8-23 17:00:00 +0100
+categories: Kavar
+---
+Welcome to Week 11 of the Kavar Dev log. This week was focused on expanding on the combat system and making it easier for enemies to be attacked. 
+The first feature I added was the ability to pause the game which stops all movement of the player and enemy. In the future you will be able to schedule an attack that will happen when the game is resumed. This will make it easier to attack enemies as hitting a specific body part when the target is moving is difficult. You can also drink potions when paused which I’m not sure I should keep. It would definitely make the game easier but ideally, I wouldn’t want the player to spam potions like you can do in Skyrim. Maybe I should limit the maximum of potions you can have? Or just have a maximum number of potions you can drink in a minute. Who knows what I’ll do (I certainly don’t)? 
+The next two features are quite simple. The first of the pair allows enemies to now use ranged weapons against the player. Not going to lie, this is very OP. Since the enemy can move and attack in one turn (something I didn’t realize they could do until know) you can imagine a bow firing 2 arrows every second while moving is very strong (and that’s without effects like flame!). So needlessly to say I need to balance the bow. One idea I have is requiring an arrow to be knocked into position, which would take up a turn. I’ll also make it so that enemies can’t move and attack in the same turn. 
+The other feature is simply a concentration potion which restores 5 points of concentration. 
+I certainly have lots to do don’t I. My main priority is balancing the bow and the AI so that they can only move or attack per turn. I also want to make it so that certain weapons take longer to attack. For example, the bow will attack faster than the dagger, but will require a turn for an arrow to be knocked into place thus taking more time. Although graphics aren’t my priority right now, I really want to replace the current tile set I’m using, which is the DCSS tile set, with Kenney’s 1-bit tile set. I really like the art style of it, and it would make it easier for me to add custom sprites as I’m not the greatest artist. With that said, it can wait. 
+Well that’s my progress for this week. Until next week, stay safe.

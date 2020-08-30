@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Kavar Log 12: Enemy Combat 03"
+date:   2020-8-30 3:30:00 +0100
+categories: Kavar
+---
+
+Well combat’s done… for now at least. Enemies now require to place an arrow into place so that they can fire. This takes half a second so the total cost of attacking with a ranged weapon is 1 second compared to the dagger which only takes .5 seconds to attack. Also, enemies can only choose to attack or chase their target once per turn. Enemies with a ranged weapon will attack until their target is out of sight; to which they will go to their last seen position. Eventually I will work this into the player’s combat system but for now I’m going to start working on map generation.  I think I’m going to use Perlin noise along with Voronoi but not sure yet as I have no idea on how to incorporate Voronoi in Unity, let alone with Perlin. 
+Hope to see you again next week.

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Kavar Log 13: Trouble with Map Generation 01 (feat. updated sprites)"
+date:   2020-9-06 16:50:00 +0100
+categories: Kavar
+---
+Two things this week. I’ve updated graphics for Kavar to Kenney’s 1-bit pack and replaced all of the ground and wall sprites with that, and I’ve started with map generation. 
+This week was mostly just looking at how to do map gen in Unity and looking over other people’s projects to see how they handled it. 
+I also experimented a bit with Perlin Noise within Unity and while I do get visual results, they don’t look entirely appealing. 
+<img align="right" width="360" height="190" src="/images/MapGenV1.PNG">
+
+As you can see, there are parts of the generation that get duplicated. I’m not entirely sure for the reasoning of this but, I suspect it’s something to do with how I’m handling chunks. Currently how this works is that a chunk, which contains 16x16 area of tiles, gets generated with noise, and then the next chunk gets generated with the same noise causing different chunks to get the same noise. I might be wrong but currently that’s the only issue with this.
+Anyway, for now, I’m going to focus on generating nice looking environments with trees and water. After that will come interaction with environments for the player and finding a way to spawn enemies.
+Well until next time stay safe.
